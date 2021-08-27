@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table align="center">
+        <tr>
+            <th colspan="2">
+                <h3>Employment Application </h3>
+                <hr>
+            </th>
+        </tr>
+        <tr>
+                <td>First name *<br><input type="text" name="first_name"></td>
+                <td>Last name *<br><input type="text" name="last_name"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Email *<br><input type="text" id="email"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Portfolio website<br><input type="text" id="portfolio_website" value="http://">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Position you are applying for *<br><input type="text" id="position"></td>
+        </tr>
+        <tr>
+            <td>Salary requirements<br><input type="text" name="salary_requirements"></td>
+            <td>When can you start?<br><input type="text" name="start_date"></td>
+        </tr>
+        <tr>
+            <td>Phone *<br><input type="text" name="phone"></td>
+            <td>Fax<br><input type="text" name="fax"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><p>Are you willing to relocate?</p>
+                <input type="radio" name="grp">Yes 
+                <input type="radio" name="grp">No 
+                <input type="radio" name="grp">Not Sure</td>
+        </tr>
+        <tr>
+            <td colspan="2"><p>Last company you worked for</p>
+                <input type="text" id="last_company" maxlength="100">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <p>Reference/Comments/Questions</p>
+                <textarea id="comments"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="button">
+                    <button type="submit">Send Application</button>
+                </div>
+            </td>
+        </tr>
+</table>
+</body>
+</html>

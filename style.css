@@ -1,0 +1,15 @@
+table{ background :mediumslateblue}
+table{
+    width: 25%;
+}
+#comments{overflow: auto;
+width: 98%;
+}
+#email{width:98%}
+#portfolio_website{width:98%}
+#position{width:98%}
+#last_company{width:98%}
+#button{
+    display:flex;
+    justify-content: center;
+    align-items: center;}
